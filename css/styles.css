@@ -13,9 +13,10 @@ button {
 }
 
 body {
-  font-family: "Robboto", sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
+  font-family: "Roboto", sans-serif;
 }
 
 /* Header */
@@ -89,7 +90,7 @@ body {
 .order-service:focus {
   background-color: #404bbf;
 }
-
+/* BENEFITS */
 .benefits-title {
   font-size: 20px;
   line-height: 1.2;
@@ -98,12 +99,11 @@ body {
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.5;
+  line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: #2e2f42;
 }
-
-.benefits-list-title {
+.benefits-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
@@ -175,13 +175,8 @@ body {
   color: #4d5ae5;
 }
 
-.logo-blue {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.16667;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
+.footer-logo-color {
+  color: #f4f4fd;
 }
 
 .footer-text {
