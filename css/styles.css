@@ -12,7 +12,7 @@ button {
   cursor: pointer;
 }
 
-.body {
+body {
   font-family: "Robboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
@@ -24,22 +24,14 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
-  color: #2e2f42;
+  color: #4d5ae5;
   text-transform: uppercase;
 }
 
-.text-blue {
-  color: #4d5ae5;
-}
-
-.menu {
-  display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
-  flex-direction: row;
-  gap: 40px;
+.text-color {
+  color: #2e2f42;
 }
 
 .menu-link {
@@ -52,19 +44,22 @@ button {
 
 .menu-link:hover,
 .menu-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
+}
+
+.contact-block {
+  font-style: normal;
 }
 .contact-link {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-  font-style: normal;
 }
 
 .contact-link:hover,
 .contact-link:focus {
-  color: #4d5ae5;
+  color: #404bbf;
 }
 
 /* HERO BANER */
@@ -74,15 +69,14 @@ button {
 
 .main-title {
   font-size: 56px;
-
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: #ffffff;
 }
 
 .order-service {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   background: #4d5ae5;
   color: #ffffff;
   font-weight: 500;
@@ -91,13 +85,22 @@ button {
   letter-spacing: 0.04em;
   font-weight: 500;
 }
+.order-service:hover,
+.order-service:focus {
+  background-color: #404bbf;
+}
+
+.benefits-title {
+  font-size: 20px;
+  line-height: 1.2;
+}
 
 .benefits-list-title {
   font-weight: 500;
   font-size: 20px;
-  line-height: 1.2;
+  line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: #434455;
 }
 
 .benefits-list-title {
@@ -110,10 +113,17 @@ button {
 .team {
   background: #f4f4fd;
 }
+.team-title,
+.portfolio-title {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
 
 .team-list-item {
-  box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08),
-    0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
   background: #ffffff;
 }
 
@@ -131,16 +141,11 @@ button {
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-align: center;
+  color: #434455;
 }
 
 /* OUR PORTFOLIO */
-.portfolio-title {
-  font-size: 36px;
-  line-height: 1.11111;
-  letter-spacing: 0.02em;
-  text-align: center;
-  color: #2e2f42;
-}
+
 .portfolio-list-title {
   font-weight: 500;
   font-size: 20px;
@@ -153,6 +158,7 @@ button {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 /* FOOTER */
@@ -163,10 +169,10 @@ button {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #f4f4fd;
+  color: #4d5ae5;
 }
 
 .logo-blue {
